@@ -21,10 +21,10 @@ class App extends React.Component {
             selectedVideo: response.data.items[0]
         })
 
-    }
+    };
     onVideoSelect = video => {
         this.setState({ selectedVideo: video })
-    }
+    };
     render() {
         return (
             <div className="ui container">
@@ -41,7 +41,7 @@ class App extends React.Component {
                 </div>
             </div>
         )
-    }
-}
+    };
+};
 
 export default App;

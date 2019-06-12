@@ -1,7 +1,7 @@
 Youtube App 
 # npm install
 
-First you can create new yotube api key.
+First you have to create your own yotube api key.
 # https://console.developers.google.com/apis/library/youtube.googleapis.com?q=youtube&id=125bab65-cfb6-4f25-9826-4dcc309bc508&project=video-browser-233917&folder&organizationId
  Copy api key in your apis=>youtube.js 
 then save and run
